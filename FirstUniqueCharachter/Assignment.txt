@@ -1,0 +1,29 @@
+﻿Problem Statement
+=================
+Write a method in C# that finds the first character in a given string that does not repeat. 
+If all characters in the string appear more than once, the method should return a special character, say '*'.
+Your solution should be efficient and handle the case of long strings quickly.
+
+Requirements:
+==============
+1. Avoid checking each character multiple times. Think about how you can solve this problem in a way that minimizes repeated work.
+2. You can assume the string contains only lowercase alphabetic characters.
+
+Method Signature
+=================
+public char FirstNonRepeatedCharacter(string input)
+
+Example Cases
+=============
+1. Input: "swiss"
+	Output: 'w'
+	Explanation: 's' appears more than once, but 'w' is the first character that does not repeat.
+
+2. Input: "aabbcc"
+	Output: '*'
+	Explanation: All characters in this string are repeated.
+
+Goal
+====
+The goal of this exercise is to find a simple and efficient way to identify the first non-repeated character. 
+Think about how you can use data structures to keep track of character counts without doing unnecessary work.
